@@ -1,0 +1,171 @@
+
+/*nav*/
+.nav-text{
+    display:flex;
+    justify-content: space-between;
+    
+}
+nav{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+   width: 140px; 
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400px;
+}
+.Youtube-btn{
+   text-decoration: none;
+   color: #333;
+   margin-right: 15px;
+   font-weight: 400; 
+}
+.Tiktok{
+display: inline-block;
+text-decoration: none;
+padding: 14px 40px;
+color: #fff;
+background-image: linear-gradient(45deg, #df4881,#c430d7);
+font-size: 14px;
+border-radius: 30px ;
+border-top-right-radius: 0;
+}
+/*nav end*/
+
+
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 100px 100px 100px 200px;
+    display: flex;
+}
+
+.baner-tatil{
+    color: #151314;
+}
+
+.btn-primary{
+    background-color:  #fd6e0a;
+    width: 100px;
+    height: 50px;  
+    border-radius: 5px; 
+}
+
+.feature-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*main banner
+.section1{
+    text-align: center;
+    display: flex;
+
+   }
+  
+   .Funny-Videos{
+     color: #FF42A5;
+   }
+   .img-section{
+      
+       gap: 100px;
+       align-items: center;
+       padding: 30px 250px;
+   }
+*/
+/*banner section*/
+.grid-container{
+display: grid;
+
+display: flex;
+gap: 5px;
+max-width: 1400px;
+align-items: center;
+}
+
+
+
+.text-clore{
+    color: #F948B2 ;
+}
+
+/*.single-product{
+width: 19.2%;
+border: 2px solid red;
+}*/
+
+/*setion2*/
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+
+}
+.teams-title .Quick-list{
+    
+    font-weight: 500px;
+}
+.teams-title .text-features{
+    color: #ff900e;
+    font-weight: 700px;
+
+}
+
+.teams-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.sponspors{
+    text-align: center;
+}
+.sponspors-img-container{
+    margin-top: 50px;
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    .sponspors{
+    text-align: center;
+}
+}
+
+.ftt{
+
+    background-color: #ee2f69;
+    color: antiquewhite;
+}
+.futt{
+    color: #ff900e;
+}
+
+.footer{
+    max-width: 1140px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
